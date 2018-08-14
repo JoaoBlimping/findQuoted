@@ -1,0 +1,3528 @@
+<html><head>
+<link rel="shortcut icon" href="/favicon.ico">
+<title>Castle Paradox :: Game List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Keywords" content="castle paradox,game creation,game creation engine,ohr,ohrrpgce,hamster republic,amateur game design,RPG,O.H.R.RPG.C.E,maker,editor,construction,custom,personal,final fantasy,role,playing,game,spiffy,make my own">
+<meta http-equiv="Description" content="An OHRRPGCE community site with reviews, articles and a huge list of downloadable OHRRPGCE games. Castle Paradox also hosts the archive of its ancestor, Operation:OHR ">
+<meta name="Keywords" content="castle paradox,game creation,game creation engine,ohr,ohrrpgce,hamster republic,amateur game design,RPG,O.H.R.RPG.C.E,maker,editor,construction,custom,personal,final fantasy,role,playing,game,spiffy,make my own">
+<meta name="Description" content="An OHRRPGCE community site with reviews, articles and a huge list of downloadable OHRRPGCE games. Castle Paradox also hosts the archive of its ancestor, Operation:OHR ">
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link rel="stylesheet" href="./mods/3.css" type="text/css" --="">
+<link rel="stylesheet" href="./mods/forum.css" type="text/css" --="">
+<script language="JavaScript" src="./mods/zoomable.js"></script>
+<script language="JavaScript" src="./mods/confirmation.js"></script>
+<script language="JavaScript" src="./mods/ratings.js"></script>
+<script language="JavaScript" src="./mods/overlib/overlib.js"></script>
+<script language="JavaScript" src="./mods/showhide.js"></script>
+</head>
+
+<body bgcolor="#000000" text="#593200" link="#FFD5AA" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<map name="TitleBar">
+  <area shape="rect" coords="69,1,134,18" href="./gamelist.php" alt="Gamelist">
+  <area shape="rect" coords="153,2,228,18" href="./reviewlist.php" alt="Review List">
+  <area shape="rect" coords="248,3,308,18" href="./songlist.php" alt="Song List">
+  <area shape="rect" coords="323,3,403,17" href="./viewjournal.php?view=w" alt="Watched Journals">
+  <area shape="rect" coords="421,3,480,17" href="././ohr/index.php" alt="Forum">
+  <area shape="rect" coords="496,3,532,17" href="./irc.php" alt="IRC">
+</map>
+<map name="Community">
+  <area shape="rect" coords="1,1,143,20" href="./gamelist.php" alt="Gamelist">
+  <area shape="rect" coords="1,19,143,38" href="./songlist.php" alt="Song List">
+  <area shape="rect" coords="1,37,143,56" href="./reviewlist.php" alt="Review List">
+  <area shape="rect" coords="1,55,143,74" href="././ohr/index.php" alt="Forum">
+  <area shape="rect" coords="1,73,143,92" href="./articles/index.php" alt="Articles">
+  <area shape="rect" coords="1,91,143,110" href="./irc.php" alt="IRC">
+</map>
+<map name="MyCPLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./ohr/login.php" alt="Log Out">
+  <area shape="rect" coords="1,19,49,38" href="./game.php?mode=new" alt="Add Game">
+  <area shape="rect" coords="48,19,143,38" href="./game-edit.php" alt="Edit Games">
+  <area shape="rect" coords="1,37,43,56" href="./review-edit.php" alt="Add Reviews">
+  <area shape="rect" coords="42,37,143,56" href="./review-edit.php" alt="Edit Reviews">
+  <area shape="rect" coords="1,55,51,74" href="./song.php?mode=new" alt="Add Songs">
+  <area shape="rect" coords="50,55,143,74" href="./song-edit.php" alt="Edit Songs">
+</map>
+<map name="MyCPLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./ohr/login.php" alt="Log Out">
+  <area shape="rect" coords="1,19,143,38" href="./" alt="Edit Games">
+  <area shape="rect" coords="1,37,143,56" href="./review-edit.php" alt="Edit Reviews">
+  <area shape="rect" coords="1,55,143,74" href="./song-edit.php" alt="Edit Songs">
+</map>
+<map name="MyCPLoggedOut">
+  <area shape="rect" coords="0,2,142,21" href="./ohr/profile.php?mode=register" alt="Sign Up">
+  <area shape="rect" coords="0,20,142,39" href="" alt="Log In">
+</map>
+<map name="JournalsLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./viewjournal.php?j=-1" alt="My Journal">
+  <area shape="rect" coords="0,19,142,38" href="./gamejournals.php" alt="My Game Journals">
+  <area shape="rect" coords="0,37,142,56" href="./viewjournal.php?view=w" alt="Watched Journals">
+  <area shape="rect" coords="0,55,142,74" href="./viewjournal.php" alt="All Journals">
+  <area shape="rect" coords="0,73,142,92" href="./journalsettings.php" alt="Journal Settings">
+</map>
+<map name="JournalsLoggedOut" id="JournalsLoggedOut">
+  <area shape="rect" coords="1,1,143,20" href="./viewjournal.php" alt="All Journals">
+</map>
+<map name="AboutUs">
+  <area shape="rect" coords="1,1,143,20" href="./" alt="About Us">
+  <area shape="rect" coords="1,19,143,38" href="./" alt="Staff">
+  <area shape="rect" coords="1,37,143,56" href="./ohr/faq.php" alt="FAQ">
+</map>
+<div align="center">
+<table width="780" border="0&quot;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="center">
+  <table width="761" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+      <td height="0" width="150"></td>
+      <td height="0" width="431"></td>
+      <td height="0" width="180"></td>
+    </tr>
+    <tr>
+      <td height="90" width="581" colspan="2" align="center" valign="bottom"><a href="./index.php"><img src="./img/3-CP-Lettering.jpg" width="529" height="68" border="0" alt="Castle Paradox"></a></td>
+      <td width="180" rowspan="3" valign="top"><img src="./img/3-CharacterLittle.jpg" width="180" height="247" alt=""></td>
+    </tr>
+    <tr>
+      <td height="20" align="right" colspan="2"><img src="./img/3-TitleUnderline.jpg" width="600" height="20" border="0" alt="Title Bar" usemap="#TitleBar"></td>
+    </tr>
+
+    <tr>
+      <td width="150" valign="top">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><div align="center"><img src="./img/3-ButtonLogin.jpg" width="150" height="20" alt="Log In Box"></div></td>
+          </tr>
+          <tr>
+            <td height="147" align="center">
+                <table width="144" height="163" border="0" cellpadding="5" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="top" background="./img/3-LoginBoxNew.jpg">
+                      <form name="form1" method="post" action="./ohr/login.php"><input class="post" type="hidden" name="redirect" value="../gamelist.php">
+                        <table width="134" height="123" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tbody><tr>
+                            <td height="15">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right">
+                              <input tabindex="1" class="post" type="text" name="username" size="16">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="16" align="right"><a href="./ohr/profile.php?mode=sendpassword">______</a>&nbsp;&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right">
+                              <input tabindex="2" class="post" type="password" name="password" size="16">
+                              </td>
+                          </tr>
+                          <tr>
+                            <td height="12" align="right">
+                              <input tabindex="3" class="text" type="checkbox" name="autologin">
+			    </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <input tabindex="4" type="submit" class="mainoption" name="login" value="Login">
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </form> </td>
+                  </tr>
+                </tbody></table>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td height="138" width="431" valign="top">
+        <table width="431" border="0" cellpadding="2" cellspacing="2">
+          <tbody><tr>
+            <td height="20" width="431" valign="top">
+              <div align="left"><span class="gensmall"><a href="./stats.php"><img src="./img/3-NewestReviewsButton.jpg" width="431" height="20" border="0" alt=""></a></span></div>
+            </td>
+          </tr>
+	  <tr>
+	    <td width="431" align="right">
+	      <span class="gensmall"><a href="./stats.php">[more]</a></span>
+	    </td>
+	  </tr>
+          <tr>
+            <td width="431"><span class="ad">&nbsp;&nbsp;&nbsp;&nbsp;1) <a href="./review-display.php?review=503">Sword of Jade: Parallel Dreams</a>  reviewed by <a href="./ohr/profile.php?mode=viewprofile&amp;u=11">JSH357</a><br>&nbsp;&nbsp;&nbsp;&nbsp;2) <a href="./review-display.php?review=502">Vikings Of Midgard</a>  reviewed by <a href="./ohr/profile.php?mode=viewprofile&amp;u=4323">MirceaKitsune</a><br>&nbsp;&nbsp;&nbsp;&nbsp;3) <a href="./review-display.php?review=501">Bug on the Wall</a>  reviewed by <a href="./ohr/profile.php?mode=viewprofile&amp;u=11">JSH357</a><br>&nbsp;&nbsp;&nbsp;&nbsp;4) <a href="./review-display.php?review=500">Tightfloss Maiden</a>  reviewed by <a href="./ohr/profile.php?mode=viewprofile&amp;u=4202">yhposolihP</a><br>&nbsp;&nbsp;&nbsp;&nbsp;5) <a href="./review-display.php?review=499">A Blank Mind</a>  reviewed by <a href="./ohr/profile.php?mode=viewprofile&amp;u=4013">Dorumagesu</a><br></span></td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+    <tr>
+      <td width="150" valign="top">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><div align="center"><img src="./img/3-ButtonCommunity.jpg" width="150" height="20" alt="Community"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-CommunityLinks.jpg" width="144" height="115" border="0" alt="Community Menu" usemap="#Community"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonMyCP.jpg" width="150" height="20" alt="My CP"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-MyCPLinksLoggedOut.jpg" width="144" height="44" border="0" alt="My CP Menu" usemap="#MyCPLoggedOut"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonJournals.jpg" width="150" height="20" alt="Journals"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-JournalsLoggedOut.jpg" width="144" height="26" border="0" alt="Journals Menu" usemap="#JournalsLoggedOut"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonAboutUs.jpg" width="150" height="20" alt="About Us"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-AboutUsLinks.jpg" width="144" height="62" border="0" alt="About Us Menu" usemap="#AboutUs"></div></td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td height="138" width="431" valign="top"><table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><span class="gen">
+
+<form action="gamelist.php" method="POST">
+<center><table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><span class="nav">
+      <input class="mainoption" name="submit" type="Submit" value="Previous Page">
+      <input class="mainoption" name="submit" type="Submit" value="Next Page">
+      </span> </td>
+    <td><div align="right">
+        <input name="author" type="hidden" value=" ">
+        <input name="keywords" type="hidden" value=" ">
+        <input name="title" type="hidden" value=" ">
+        <input name="stage" type="hidden" value="">
+        <input name="average" type="hidden" value="">
+        <input name="temp_start" type="hidden" value="0">
+        <input name="games_per_page" type="hidden" value="10">
+	<input name="order_by" type="hidden" value="">
+	<input name="order_type" type="hidden" value="DESC">
+        <span class="nav">
+        <input class="mainoption" type="submit" name="Submit" value="Go to Page">
+        <select name="start">
+          <option value="0" selected="selected">1</option>
+          <option value="10">2</option>
+          <option value="20">3</option>
+          <option value="30">4</option>
+          <option value="40">5</option>
+          <option value="50">6</option>
+          <option value="60">7</option>
+          <option value="70">8</option>
+          <option value="80">9</option>
+          <option value="90">10</option>
+          <option value="100">11</option>
+          <option value="110">12</option>
+          <option value="120">13</option>
+          <option value="130">14</option>
+          <option value="140">15</option>
+          <option value="150">16</option>
+          <option value="160">17</option>
+          <option value="170">18</option>
+          <option value="180">19</option>
+          <option value="190">20</option>
+          <option value="200">21</option>
+          <option value="210">22</option>
+          <option value="220">23</option>
+          <option value="230">24</option>
+          <option value="240">25</option>
+          <option value="250">26</option>
+          <option value="260">27</option>
+          <option value="270">28</option>
+          <option value="280">29</option>
+          <option value="290">30</option>
+          <option value="300">31</option>
+          <option value="310">32</option>
+          <option value="320">33</option>
+          <option value="330">34</option>
+          <option value="340">35</option>
+          <option value="350">36</option>
+          <option value="360">37</option>
+          <option value="370">38</option>
+          <option value="380">39</option>
+          <option value="390">40</option>
+          <option value="400">41</option>
+          <option value="410">42</option>
+          <option value="420">43</option>
+          <option value="430">44</option>
+          <option value="440">45</option>
+          <option value="450">46</option>
+          <option value="460">47</option>
+          <option value="470">48</option>
+          <option value="480">49</option>
+          <option value="490">50</option>
+          <option value="500">51</option>
+          <option value="510">52</option>
+          <option value="520">53</option>
+          <option value="530">54</option>
+          <option value="540">55</option>
+          <option value="550">56</option>
+          <option value="560">57</option>
+          <option value="570">58</option>
+          <option value="580">59</option>
+          <option value="590">60</option>
+          <option value="600">61</option>
+          <option value="610">62</option>
+          <option value="620">63</option>
+          <option value="630">64</option>
+          <option value="640">65</option>
+          <option value="650">66</option>
+          <option value="660">67</option>
+          <option value="670">68</option>
+          <option value="680">69</option>
+          <option value="690">70</option>
+          <option value="700">71</option>
+          <option value="710">72</option>
+          <option value="720">73</option>
+          <option value="730">74</option>
+          <option value="740">75</option>
+          <option value="750">76</option>
+          <option value="760">77</option>
+          <option value="770">78</option>
+          <option value="780">79</option>
+          <option value="790">80</option>
+          <option value="800">81</option>
+          <option value="810">82</option>
+          <option value="820">83</option>
+          <option value="830">84</option>
+          <option value="840">85</option>
+          <option value="850">86</option>
+          <option value="860">87</option>
+          <option value="870">88</option>
+          <option value="880">89</option>
+          <option value="890">90</option>
+          <option value="900">91</option>
+          <option value="910">92</option>
+          <option value="920">93</option>
+          <option value="930">94</option>
+          <option value="940">95</option>
+          <option value="950">96</option>
+          <option value="960">97</option>
+          <option value="970">98</option>
+          <option value="980">99</option>
+          <option value="990">100</option>
+          <option value="1000">101</option>
+          <option value="1010">102</option>
+          <option value="1020">103</option>
+          <option value="1030">104</option>
+          <option value="1040">105</option>
+          <option value="1050">106</option>
+          <option value="1060">107</option>
+          <option value="1070">108</option>
+        </select>
+        </span><span class="ad"> /108 </span></div></td>
+  </tr>
+</tbody></table>
+</center>
+</form>
+<center><span class="gen"><a href="gamelist.php?letter=num">#</a>&nbsp;
+	<a href="gamelist.php?letter=a">A</a>&nbsp;
+	<a href="gamelist.php?letter=b">B</a>&nbsp;
+	<a href="gamelist.php?letter=c">C</a>&nbsp;
+	<a href="gamelist.php?letter=d">D</a>&nbsp;
+	<a href="gamelist.php?letter=e">E</a>&nbsp;
+	<a href="gamelist.php?letter=f">F</a>&nbsp;
+	<a href="gamelist.php?letter=g">G</a>&nbsp;
+	<a href="gamelist.php?letter=h">H</a>&nbsp;
+	<a href="gamelist.php?letter=i">I</a>&nbsp;
+	<a href="gamelist.php?letter=j">J</a>&nbsp;
+	<a href="gamelist.php?letter=k">K</a>&nbsp;
+	<a href="gamelist.php?letter=l">L</a>&nbsp;
+	<a href="gamelist.php?letter=m">M</a>&nbsp;
+	<a href="gamelist.php?letter=n">N</a>&nbsp;
+	<a href="gamelist.php?letter=o">O</a>&nbsp;
+	<a href="gamelist.php?letter=p">P</a>&nbsp;
+	<a href="gamelist.php?letter=q">Q</a>&nbsp;
+	<a href="gamelist.php?letter=r">R</a>&nbsp;
+	<a href="gamelist.php?letter=s">S</a>&nbsp;
+	<a href="gamelist.php?letter=t">T</a>&nbsp;
+	<a href="gamelist.php?letter=u">U</a>&nbsp;
+	<a href="gamelist.php?letter=v">V</a>&nbsp;
+	<a href="gamelist.php?letter=w">W</a>&nbsp;
+	<a href="gamelist.php?letter=x">X</a>&nbsp;
+	<a href="gamelist.php?letter=y">Y</a>&nbsp;
+	<a href="gamelist.php?letter=z">Z</a></span></center><br>
+<table class="forumline" width="430" border="0">
+  <tbody><tr>
+    <th class="thHead" colspan="3">Game List</th>
+  </tr>
+  <tr>
+    <td width="10">
+      &nbsp;
+    </td>
+    <td width="410">
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1080">Dreamwalkers (DEMO)</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=4713">Gaplan</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1080"><img src="gamelist/1080/1080.gif" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=1080">Download: 8.25 MB</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Tue Jul 24, 2018 11:17 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">14</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-1080">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1079">Fnrrf Ygm Schnish: Alleghany Hell School</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=237">FnrrfYgmSchnish</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1079"><img src="gamelist/1079/1079.png" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">1</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">5.0000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=1079">Download: 4.03 MB</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Mon May 07, 2018 6:42 pm</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">137</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-1079">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=703">The Local Gods</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=1053">Obright</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=703"><img src="gamelist/703/703.gif" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=703">Download: 5.94 MB</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Sat Apr 07, 2018 9:34 pm</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">184</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-703">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">4 topics and 27 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1078">8-Bit Graphics Set</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=237">FnrrfYgmSchnish</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1078"><img src="gamelist/1078/1078.png" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=1078">Download: 1.05 MB</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Tue Jan 02, 2018 11:01 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">194</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-1078">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=365">Walthros: Return of the Crystals</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=365"><img src="gamelist/365/365.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">B+</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">4</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">B</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">7</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">3.7143</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=365">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:37 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">1557</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-365">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">2 topics and 4 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=395">Village People: The Videogame</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=395"><img src="gamelist/395/395.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">4</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">2.0000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=395">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:36 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">181</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-395">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=384">Super Walrus Chef: War of the Food</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=384"><img src="gamelist/384/384.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">B</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">2</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">B+</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">5</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">3.4000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=384">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:36 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">906</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-384">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">2 topics and 15 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=672">Summertime Surlaw</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=672"><img src="gamelist/672/672.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">4</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">2.5000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=672">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:36 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">410</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-672">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">1 topic and 7 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=594">Green Frog RPG</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=594">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">3</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">3.6667</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=594">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:35 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">563</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-594">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=445">Gato Sucio: The Quest for Color</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=445"><img src="gamelist/445/445.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen">C+</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">4</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">C+</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">4</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">3.2500</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=445">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:34 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">972</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-445">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+    </td>
+    <td width="10">
+      &nbsp;
+    </td>
+  </tr>
+</tbody></table>
+
+<form action="gamelist.php" method="post">
+<center><table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><span class="nav">
+      <input class="mainoption" name="submit" type="Submit" value="Previous Page">
+      <input class="mainoption" name="submit" type="Submit" value="Next Page">
+      </span> </td>
+    <td><div align="right">
+        <input name="author" type="hidden" value=" ">
+        <input name="keywords" type="hidden" value=" ">
+        <input name="title" type="hidden" value=" ">
+        <input name="stage" type="hidden" value="">
+        <input name="average" type="hidden" value="">
+        <input name="temp_start" type="hidden" value="0">
+        <input name="games_per_page" type="hidden" value="10">
+	<input name="order_by" type="hidden" value="">
+	<input name="order_type" type="hidden" value="DESC">
+        <span class="nav">
+        <input class="mainoption" type="submit" name="Submit" value="Go to Page">
+        <select name="start">
+          <option value="0" selected="selected">1</option>
+          <option value="10">2</option>
+          <option value="20">3</option>
+          <option value="30">4</option>
+          <option value="40">5</option>
+          <option value="50">6</option>
+          <option value="60">7</option>
+          <option value="70">8</option>
+          <option value="80">9</option>
+          <option value="90">10</option>
+          <option value="100">11</option>
+          <option value="110">12</option>
+          <option value="120">13</option>
+          <option value="130">14</option>
+          <option value="140">15</option>
+          <option value="150">16</option>
+          <option value="160">17</option>
+          <option value="170">18</option>
+          <option value="180">19</option>
+          <option value="190">20</option>
+          <option value="200">21</option>
+          <option value="210">22</option>
+          <option value="220">23</option>
+          <option value="230">24</option>
+          <option value="240">25</option>
+          <option value="250">26</option>
+          <option value="260">27</option>
+          <option value="270">28</option>
+          <option value="280">29</option>
+          <option value="290">30</option>
+          <option value="300">31</option>
+          <option value="310">32</option>
+          <option value="320">33</option>
+          <option value="330">34</option>
+          <option value="340">35</option>
+          <option value="350">36</option>
+          <option value="360">37</option>
+          <option value="370">38</option>
+          <option value="380">39</option>
+          <option value="390">40</option>
+          <option value="400">41</option>
+          <option value="410">42</option>
+          <option value="420">43</option>
+          <option value="430">44</option>
+          <option value="440">45</option>
+          <option value="450">46</option>
+          <option value="460">47</option>
+          <option value="470">48</option>
+          <option value="480">49</option>
+          <option value="490">50</option>
+          <option value="500">51</option>
+          <option value="510">52</option>
+          <option value="520">53</option>
+          <option value="530">54</option>
+          <option value="540">55</option>
+          <option value="550">56</option>
+          <option value="560">57</option>
+          <option value="570">58</option>
+          <option value="580">59</option>
+          <option value="590">60</option>
+          <option value="600">61</option>
+          <option value="610">62</option>
+          <option value="620">63</option>
+          <option value="630">64</option>
+          <option value="640">65</option>
+          <option value="650">66</option>
+          <option value="660">67</option>
+          <option value="670">68</option>
+          <option value="680">69</option>
+          <option value="690">70</option>
+          <option value="700">71</option>
+          <option value="710">72</option>
+          <option value="720">73</option>
+          <option value="730">74</option>
+          <option value="740">75</option>
+          <option value="750">76</option>
+          <option value="760">77</option>
+          <option value="770">78</option>
+          <option value="780">79</option>
+          <option value="790">80</option>
+          <option value="800">81</option>
+          <option value="810">82</option>
+          <option value="820">83</option>
+          <option value="830">84</option>
+          <option value="840">85</option>
+          <option value="850">86</option>
+          <option value="860">87</option>
+          <option value="870">88</option>
+          <option value="880">89</option>
+          <option value="890">90</option>
+          <option value="900">91</option>
+          <option value="910">92</option>
+          <option value="920">93</option>
+          <option value="930">94</option>
+          <option value="940">95</option>
+          <option value="950">96</option>
+          <option value="960">97</option>
+          <option value="970">98</option>
+          <option value="980">99</option>
+          <option value="990">100</option>
+          <option value="1000">101</option>
+          <option value="1010">102</option>
+          <option value="1020">103</option>
+          <option value="1030">104</option>
+          <option value="1040">105</option>
+          <option value="1050">106</option>
+          <option value="1060">107</option>
+          <option value="1070">108</option>
+        </select>
+        </span><span class="ad"> /108 </span></div></td>
+  </tr>
+</tbody></table>
+</center>
+</form>
+
+<table width="430" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody><tr>
+	<td align="right"><span class="nav"><br></span></td>
+  </tr>
+</tbody></table>
+
+</span>
+</td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td valign="top"><div align="center">
+          <table width="150" border="0" cellspacing="2" cellpadding="2">
+            <tbody><tr>
+              <td><div align="center"><img src="./img/3-ButtonRandomGames.jpg" width="150" height="20" alt="Random Games"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+                  <table width="144" height="145" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                      <td align="center" background="./img/3-ClearBG.jpg">
+                        <table border="0" bgcolor="#EE8500" cellspacing="2" width="130">
+                          <tbody><tr>
+                            <td align="center"><span class="randgame"><a class="randgame" href="./gamelist-display.php?game=655"><img alt="Afterworld" width="128" height="80" src="./gamelist/655/655.gif"><br>Afterworld</a> by <a class="randgame" href="./ohr/profile.php?mode=viewprofile&amp;u=484">Joe Man</a></span></td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </div></td>
+            </tr>
+            <tr>
+              <td><div align="center"><img src="./img/3-RandomSongs.jpg" width="150" height="20" alt="Random Songs"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+              </div></td>
+            </tr>
+            <tr>
+              <td><div align="center"><img src="./img/3-ButtonCalendar.jpg" width="150" height="20" alt="Calendar"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+                  <table width="144" height="145" border="0" cellpadding="3" cellspacing="0">
+                    <tbody><tr>
+                      <td valign="top"><div align="center"><table width="150" border="0" cellspacing="2" cellpadding="2">
+  <tbody><tr>
+    <td width="32" height="26">
+      <a href="?month=7&amp;year=2018#"><img src="./img/3-CalendarLeft.jpg" width="32" height="26" border="0" alt="Previous Month"></a>
+    </td>
+    <td width="86" height="26" align="center">
+      <span class="ad">August 2018</span>
+    </td>
+    <td width="32" height="26">
+      <a href="?month=9&amp;year=2018#"><img src="./img/3-CalendarRight.jpg" width="32" height="26" border="0" alt="Next Month"></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <table bgcolor="#000000" cellspacing="1" cellpadding="2">
+        <tbody><tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">S</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">M</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">T</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">W</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">T</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">F</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">S</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">1</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">2</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">3</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">4</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">5</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">6</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">7</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">8</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">9</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">10</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">11</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">12</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">13</font></td>
+          <td width="4" height="4" class="row3" align="right" valign="top"><font size="-2">14</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">15</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">16</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">17</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">18</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">19</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">20</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">21</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">22</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">23</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">24</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">25</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">26</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">27</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">28</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">29</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">30</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">31</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td width="32" height="26">
+      &nbsp;
+    </td>
+    <td width="86" height="26" align="center">
+      <span class="ad"><a href="./calendar.php?entry=1&amp;dis=0" class="ad">Enter Event</a></span>
+    </td>
+    <td width="32" height="26">
+      &nbsp;
+    </td>
+  </tr>
+</tbody></table>
+
+</div></td>
+                    </tr>
+                  </tbody></table>
+                </div></td>
+            </tr>
+          </tbody></table>
+        </div></td>
+    </tr>
+  </tbody></table>
+</td>
+</tr>
+</tbody></table>
+<!--<tr>
+ <td align="center"> -->
+<span class="ad"></span><br>
+<span class="ad">
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-4656781286494824";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	google_ad_format = "728x90_as";
+	google_ad_type = "image";
+	google_ad_channel ="0858794136";
+	google_color_border = "D56C00";
+	google_color_bg = "EE8500";
+	google_color_link = "FFD5AA";
+	google_color_url = "FFD5AA";
+	google_color_text = "593200";
+	//--></script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></span>
+  <span class="copyright"><br>
+    All games, songs, and images © their respective owners.<br>
+    <a href="./tos.php">Terms of Service</a><br>
+    ©2008 Castle Paradox
+   </span>
+<!--  </td>
+</tr>
+</table>-->
+</div>
+<!-- Begin Web-Stat code -->
+<script type="text/javascript">
+<!--
+var page_name = '';
+var invisible = '';
+var iv=invisible;var pn=page_name;var ui='Inferior_Minion';
+function sE(){return true;}window.onError=sE;function clr()
+{document.ct.src="http://64.49.222.57/0.gif";}
+pn=escape(pn);var url='http://www.web-stat.com/';
+var al='Web-Stat hit counters';var rn=Math.random();
+if (window.screen){var sw=screen.width;var sh=screen.height;
+var sc=screen.colorDepth;}else{var sw='';var sh='';
+var sc='';}var qry=ui+"::"+escape(document.referrer)
++'::'+sw+'x'+sh+'::'+sc+'::'+pn+'::'+iv+'::'+rn;
+document.write('<a href="'+url+'stats.shtml?'+ui+'" tar');
+document.write('get="new"><img name="ct" border=0 src="');
+document.write(url+'count.cgi?'+qry+'" onAbort="clr();"');
+document.write(' onError="clr();" alt="'+al+'"></a>');
+//-->
+</script><a href="http://www.web-stat.com/stats.shtml?Inferior_Minion" target="new"><img name="ct" border="0" src="http://www.web-stat.com/count.cgi?Inferior_Minion::http%3A//www.castleparadox.com/::1366x768::24::::::0.7800114632079778" onabort="clr();" onerror="clr();" alt="Web-Stat hit counters"></a><noscript>
+<a href="http://www.web-stat.com/stats.shtml?Inferior_Minion" target="new">
+</a></noscript>
+<!-- End Web-Stat code -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-797778-1";
+urchinTracker();
+</script>
+
+
+
+
+</body></html>
+<html><head>
+<link rel="shortcut icon" href="/favicon.ico">
+<title>Castle Paradox :: Game List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Keywords" content="castle paradox,game creation,game creation engine,ohr,ohrrpgce,hamster republic,amateur game design,RPG,O.H.R.RPG.C.E,maker,editor,construction,custom,personal,final fantasy,role,playing,game,spiffy,make my own">
+<meta http-equiv="Description" content="An OHRRPGCE community site with reviews, articles and a huge list of downloadable OHRRPGCE games. Castle Paradox also hosts the archive of its ancestor, Operation:OHR ">
+<meta name="Keywords" content="castle paradox,game creation,game creation engine,ohr,ohrrpgce,hamster republic,amateur game design,RPG,O.H.R.RPG.C.E,maker,editor,construction,custom,personal,final fantasy,role,playing,game,spiffy,make my own">
+<meta name="Description" content="An OHRRPGCE community site with reviews, articles and a huge list of downloadable OHRRPGCE games. Castle Paradox also hosts the archive of its ancestor, Operation:OHR ">
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link rel="stylesheet" href="./mods/3.css" type="text/css" --="">
+<link rel="stylesheet" href="./mods/forum.css" type="text/css" --="">
+<script language="JavaScript" src="./mods/zoomable.js"></script>
+<script language="JavaScript" src="./mods/confirmation.js"></script>
+<script language="JavaScript" src="./mods/ratings.js"></script>
+<script language="JavaScript" src="./mods/overlib/overlib.js"></script>
+<script language="JavaScript" src="./mods/showhide.js"></script>
+</head>
+
+<body bgcolor="#000000" text="#593200" link="#FFD5AA" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<map name="TitleBar">
+  <area shape="rect" coords="69,1,134,18" href="./gamelist.php" alt="Gamelist">
+  <area shape="rect" coords="153,2,228,18" href="./reviewlist.php" alt="Review List">
+  <area shape="rect" coords="248,3,308,18" href="./songlist.php" alt="Song List">
+  <area shape="rect" coords="323,3,403,17" href="./viewjournal.php?view=w" alt="Watched Journals">
+  <area shape="rect" coords="421,3,480,17" href="././ohr/index.php" alt="Forum">
+  <area shape="rect" coords="496,3,532,17" href="./irc.php" alt="IRC">
+</map>
+<map name="Community">
+  <area shape="rect" coords="1,1,143,20" href="./gamelist.php" alt="Gamelist">
+  <area shape="rect" coords="1,19,143,38" href="./songlist.php" alt="Song List">
+  <area shape="rect" coords="1,37,143,56" href="./reviewlist.php" alt="Review List">
+  <area shape="rect" coords="1,55,143,74" href="././ohr/index.php" alt="Forum">
+  <area shape="rect" coords="1,73,143,92" href="./articles/index.php" alt="Articles">
+  <area shape="rect" coords="1,91,143,110" href="./irc.php" alt="IRC">
+</map>
+<map name="MyCPLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./ohr/login.php" alt="Log Out">
+  <area shape="rect" coords="1,19,49,38" href="./game.php?mode=new" alt="Add Game">
+  <area shape="rect" coords="48,19,143,38" href="./game-edit.php" alt="Edit Games">
+  <area shape="rect" coords="1,37,43,56" href="./review-edit.php" alt="Add Reviews">
+  <area shape="rect" coords="42,37,143,56" href="./review-edit.php" alt="Edit Reviews">
+  <area shape="rect" coords="1,55,51,74" href="./song.php?mode=new" alt="Add Songs">
+  <area shape="rect" coords="50,55,143,74" href="./song-edit.php" alt="Edit Songs">
+</map>
+<map name="MyCPLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./ohr/login.php" alt="Log Out">
+  <area shape="rect" coords="1,19,143,38" href="./" alt="Edit Games">
+  <area shape="rect" coords="1,37,143,56" href="./review-edit.php" alt="Edit Reviews">
+  <area shape="rect" coords="1,55,143,74" href="./song-edit.php" alt="Edit Songs">
+</map>
+<map name="MyCPLoggedOut">
+  <area shape="rect" coords="0,2,142,21" href="./ohr/profile.php?mode=register" alt="Sign Up">
+  <area shape="rect" coords="0,20,142,39" href="" alt="Log In">
+</map>
+<map name="JournalsLoggedIn">
+  <area shape="rect" coords="1,1,143,20" href="./viewjournal.php?j=-1" alt="My Journal">
+  <area shape="rect" coords="0,19,142,38" href="./gamejournals.php" alt="My Game Journals">
+  <area shape="rect" coords="0,37,142,56" href="./viewjournal.php?view=w" alt="Watched Journals">
+  <area shape="rect" coords="0,55,142,74" href="./viewjournal.php" alt="All Journals">
+  <area shape="rect" coords="0,73,142,92" href="./journalsettings.php" alt="Journal Settings">
+</map>
+<map name="JournalsLoggedOut" id="JournalsLoggedOut">
+  <area shape="rect" coords="1,1,143,20" href="./viewjournal.php" alt="All Journals">
+</map>
+<map name="AboutUs">
+  <area shape="rect" coords="1,1,143,20" href="./" alt="About Us">
+  <area shape="rect" coords="1,19,143,38" href="./" alt="Staff">
+  <area shape="rect" coords="1,37,143,56" href="./ohr/faq.php" alt="FAQ">
+</map>
+<div align="center">
+<table width="780" border="0&quot;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td align="center">
+  <table width="761" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+      <td height="0" width="150"></td>
+      <td height="0" width="431"></td>
+      <td height="0" width="180"></td>
+    </tr>
+    <tr>
+      <td height="90" width="581" colspan="2" align="center" valign="bottom"><a href="./index.php"><img src="./img/3-CP-Lettering.jpg" width="529" height="68" border="0" alt="Castle Paradox"></a></td>
+      <td width="180" rowspan="3" valign="top"><img src="./img/3-CharacterLittle.jpg" width="180" height="247" alt=""></td>
+    </tr>
+    <tr>
+      <td height="20" align="right" colspan="2"><img src="./img/3-TitleUnderline.jpg" width="600" height="20" border="0" alt="Title Bar" usemap="#TitleBar"></td>
+    </tr>
+
+    <tr>
+      <td width="150" valign="top">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><div align="center"><img src="./img/3-ButtonLogin.jpg" width="150" height="20" alt="Log In Box"></div></td>
+          </tr>
+          <tr>
+            <td height="147" align="center">
+                <table width="144" height="163" border="0" cellpadding="5" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="top" background="./img/3-LoginBoxNew.jpg">
+                      <form name="form1" method="post" action="./ohr/login.php"><input class="post" type="hidden" name="redirect" value="../gamelist.php">
+                        <table width="134" height="123" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tbody><tr>
+                            <td height="15">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right">
+                              <input tabindex="1" class="post" type="text" name="username" size="16">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="16" align="right"><a href="./ohr/profile.php?mode=sendpassword">______</a>&nbsp;&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right">
+                              <input tabindex="2" class="post" type="password" name="password" size="16">
+                              </td>
+                          </tr>
+                          <tr>
+                            <td height="12" align="right">
+                              <input tabindex="3" class="text" type="checkbox" name="autologin">
+			    </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <input tabindex="4" type="submit" class="mainoption" name="login" value="Login">
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </form> </td>
+                  </tr>
+                </tbody></table>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td height="138" width="431" valign="top">
+        <table width="431" border="0" cellpadding="2" cellspacing="2">
+          <tbody><tr>
+            <td height="20" width="431" valign="top">
+              <div align="left"><span class="gensmall"><a href="./stats.php"><img src="./img/3-NewSongs.jpg" width="431" height="20" border="0" alt=""></a></span></div>
+            </td>
+          </tr>
+	  <tr>
+	    <td width="431" align="right">
+	      <span class="gensmall"><a href="./stats.php">[more]</a></span>
+	    </td>
+	  </tr>
+          <tr>
+            <td width="431"><span class="ad">&nbsp;&nbsp;&nbsp;&nbsp;1) <a href="./songlist-display.php?song=474">Dream City</a> by <a href="./ohr/profile.php?mode=viewprofile&amp;u=4710">artimusbena</a><br>&nbsp;&nbsp;&nbsp;&nbsp;2) <a href="./songlist-display.php?song=473">Rising Tension</a> by <a href="./ohr/profile.php?mode=viewprofile&amp;u=947">Rimudora</a><br>&nbsp;&nbsp;&nbsp;&nbsp;3) <a href="./songlist-display.php?song=472">HL - Main Theme</a> by <a href="./ohr/profile.php?mode=viewprofile&amp;u=947">Rimudora</a><br>&nbsp;&nbsp;&nbsp;&nbsp;4) <a href="./songlist-display.php?song=471">HL - Theme of Necromancer</a> by <a href="./ohr/profile.php?mode=viewprofile&amp;u=947">Rimudora</a><br>&nbsp;&nbsp;&nbsp;&nbsp;5) <a href="./songlist-display.php?song=469">HL - Battle Theme</a> by <a href="./ohr/profile.php?mode=viewprofile&amp;u=947">Rimudora</a><br></span></td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+    <tr>
+      <td width="150" valign="top">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><div align="center"><img src="./img/3-ButtonCommunity.jpg" width="150" height="20" alt="Community"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-CommunityLinks.jpg" width="144" height="115" border="0" alt="Community Menu" usemap="#Community"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonMyCP.jpg" width="150" height="20" alt="My CP"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-MyCPLinksLoggedOut.jpg" width="144" height="44" border="0" alt="My CP Menu" usemap="#MyCPLoggedOut"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonJournals.jpg" width="150" height="20" alt="Journals"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-JournalsLoggedOut.jpg" width="144" height="26" border="0" alt="Journals Menu" usemap="#JournalsLoggedOut"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-ButtonAboutUs.jpg" width="150" height="20" alt="About Us"></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><img src="./img/3-AboutUsLinks.jpg" width="144" height="62" border="0" alt="About Us Menu" usemap="#AboutUs"></div></td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td height="138" width="431" valign="top"><table width="100%" border="0" cellspacing="2" cellpadding="2">
+          <tbody><tr>
+            <td><span class="gen">
+
+<form action="gamelist.php" method="POST">
+<center><table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><span class="nav">
+      <input class="mainoption" name="submit" type="Submit" value="Previous Page">
+      <input class="mainoption" name="submit" type="Submit" value="Next Page">
+      </span> </td>
+    <td><div align="right">
+        <input name="author" type="hidden" value=" ">
+        <input name="keywords" type="hidden" value=" ">
+        <input name="title" type="hidden" value=" ">
+        <input name="stage" type="hidden" value="">
+        <input name="average" type="hidden" value="">
+        <input name="temp_start" type="hidden" value="10">
+        <input name="games_per_page" type="hidden" value="10">
+	<input name="order_by" type="hidden" value="">
+	<input name="order_type" type="hidden" value="DESC">
+        <span class="nav">
+        <input class="mainoption" type="submit" name="Submit" value="Go to Page">
+        <select name="start">
+          <option value="0">1</option>
+          <option value="10" selected="selected">2</option>
+          <option value="20">3</option>
+          <option value="30">4</option>
+          <option value="40">5</option>
+          <option value="50">6</option>
+          <option value="60">7</option>
+          <option value="70">8</option>
+          <option value="80">9</option>
+          <option value="90">10</option>
+          <option value="100">11</option>
+          <option value="110">12</option>
+          <option value="120">13</option>
+          <option value="130">14</option>
+          <option value="140">15</option>
+          <option value="150">16</option>
+          <option value="160">17</option>
+          <option value="170">18</option>
+          <option value="180">19</option>
+          <option value="190">20</option>
+          <option value="200">21</option>
+          <option value="210">22</option>
+          <option value="220">23</option>
+          <option value="230">24</option>
+          <option value="240">25</option>
+          <option value="250">26</option>
+          <option value="260">27</option>
+          <option value="270">28</option>
+          <option value="280">29</option>
+          <option value="290">30</option>
+          <option value="300">31</option>
+          <option value="310">32</option>
+          <option value="320">33</option>
+          <option value="330">34</option>
+          <option value="340">35</option>
+          <option value="350">36</option>
+          <option value="360">37</option>
+          <option value="370">38</option>
+          <option value="380">39</option>
+          <option value="390">40</option>
+          <option value="400">41</option>
+          <option value="410">42</option>
+          <option value="420">43</option>
+          <option value="430">44</option>
+          <option value="440">45</option>
+          <option value="450">46</option>
+          <option value="460">47</option>
+          <option value="470">48</option>
+          <option value="480">49</option>
+          <option value="490">50</option>
+          <option value="500">51</option>
+          <option value="510">52</option>
+          <option value="520">53</option>
+          <option value="530">54</option>
+          <option value="540">55</option>
+          <option value="550">56</option>
+          <option value="560">57</option>
+          <option value="570">58</option>
+          <option value="580">59</option>
+          <option value="590">60</option>
+          <option value="600">61</option>
+          <option value="610">62</option>
+          <option value="620">63</option>
+          <option value="630">64</option>
+          <option value="640">65</option>
+          <option value="650">66</option>
+          <option value="660">67</option>
+          <option value="670">68</option>
+          <option value="680">69</option>
+          <option value="690">70</option>
+          <option value="700">71</option>
+          <option value="710">72</option>
+          <option value="720">73</option>
+          <option value="730">74</option>
+          <option value="740">75</option>
+          <option value="750">76</option>
+          <option value="760">77</option>
+          <option value="770">78</option>
+          <option value="780">79</option>
+          <option value="790">80</option>
+          <option value="800">81</option>
+          <option value="810">82</option>
+          <option value="820">83</option>
+          <option value="830">84</option>
+          <option value="840">85</option>
+          <option value="850">86</option>
+          <option value="860">87</option>
+          <option value="870">88</option>
+          <option value="880">89</option>
+          <option value="890">90</option>
+          <option value="900">91</option>
+          <option value="910">92</option>
+          <option value="920">93</option>
+          <option value="930">94</option>
+          <option value="940">95</option>
+          <option value="950">96</option>
+          <option value="960">97</option>
+          <option value="970">98</option>
+          <option value="980">99</option>
+          <option value="990">100</option>
+          <option value="1000">101</option>
+          <option value="1010">102</option>
+          <option value="1020">103</option>
+          <option value="1030">104</option>
+          <option value="1040">105</option>
+          <option value="1050">106</option>
+          <option value="1060">107</option>
+          <option value="1070">108</option>
+        </select>
+        </span><span class="ad"> /108 </span></div></td>
+  </tr>
+</tbody></table>
+</center>
+</form>
+<center><span class="gen"><a href="gamelist.php?letter=num">#</a>&nbsp;
+	<a href="gamelist.php?letter=a">A</a>&nbsp;
+	<a href="gamelist.php?letter=b">B</a>&nbsp;
+	<a href="gamelist.php?letter=c">C</a>&nbsp;
+	<a href="gamelist.php?letter=d">D</a>&nbsp;
+	<a href="gamelist.php?letter=e">E</a>&nbsp;
+	<a href="gamelist.php?letter=f">F</a>&nbsp;
+	<a href="gamelist.php?letter=g">G</a>&nbsp;
+	<a href="gamelist.php?letter=h">H</a>&nbsp;
+	<a href="gamelist.php?letter=i">I</a>&nbsp;
+	<a href="gamelist.php?letter=j">J</a>&nbsp;
+	<a href="gamelist.php?letter=k">K</a>&nbsp;
+	<a href="gamelist.php?letter=l">L</a>&nbsp;
+	<a href="gamelist.php?letter=m">M</a>&nbsp;
+	<a href="gamelist.php?letter=n">N</a>&nbsp;
+	<a href="gamelist.php?letter=o">O</a>&nbsp;
+	<a href="gamelist.php?letter=p">P</a>&nbsp;
+	<a href="gamelist.php?letter=q">Q</a>&nbsp;
+	<a href="gamelist.php?letter=r">R</a>&nbsp;
+	<a href="gamelist.php?letter=s">S</a>&nbsp;
+	<a href="gamelist.php?letter=t">T</a>&nbsp;
+	<a href="gamelist.php?letter=u">U</a>&nbsp;
+	<a href="gamelist.php?letter=v">V</a>&nbsp;
+	<a href="gamelist.php?letter=w">W</a>&nbsp;
+	<a href="gamelist.php?letter=x">X</a>&nbsp;
+	<a href="gamelist.php?letter=y">Y</a>&nbsp;
+	<a href="gamelist.php?letter=z">Z</a></span></center><br>
+<table class="forumline" width="430" border="0">
+  <tbody><tr>
+    <th class="thHead" colspan="3">Game List</th>
+  </tr>
+  <tr>
+    <td width="10">
+      &nbsp;
+    </td>
+    <td width="410">
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1065">C. Kane</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=36">The Wobbler</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1065"><img src="gamelist/1065/1065.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=1065">Download: 152B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Mar 24, 2017 6:33 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">233</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-1065">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1009">Puckamon</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=237">FnrrfYgmSchnish</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1009"><img src="gamelist/1009/1009.gif" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">1</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">4.0000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Game is in demo stage</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=1009">Download: 2.67 MB</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Thu Dec 22, 2016 10:03 pm</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">323</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-1009">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=1077">Spooks and Summons</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=21">Fenrir-Lunaris</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=1077"><img src="gamelist/1077/1077.jpg" width="320" height="200" border="0"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=1077"></a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Added Thu Nov 03, 2016 11:17 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-1077">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=846">rwer</a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=846">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=846">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:09 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">239</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-846">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=791"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=791">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">1</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=791">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:08 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">472</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-791">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=350"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=350">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">2</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">2.5000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=350">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:08 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">604</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-350">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=587"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=587">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">1</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">2.0000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=587">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:04 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">408</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-587">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=971"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=971">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">1</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">1.0000</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=971">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:04 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">96</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-971">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=713"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row1" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=713">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row1" colspan="3">
+             <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">0</span>
+          </td>
+          <td class="row1">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row1">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen"><a href="download.php?game=713">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:04 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">219</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"><a href="./viewjournal.php?j=-713">Game Journal:</a></span>
+          </td>
+          <td class="row1" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row1">
+            <span class="gen"></span>
+          </td>
+          <td class="row1" align="center" width="75">
+          </td>
+          <td class="row1" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+      <table class="forumline" width="410" border="0">
+        <tbody><tr>
+          <th class="thHead" valign="middle" colspan="4">
+            <b>
+            <a href="gamelist-display.php?game=204"> </a>
+            </b>
+            by
+            <b>
+            <a href="./ohr/profile.php?mode=viewprofile&amp;u=227">RedMaverickZero</a>
+            </b>
+          </th>
+        </tr>
+        <tr>
+          <td class="row2" align="center" valign="middle" colspan="4">
+            <span class="gen"><a href="gamelist-display.php?game=204">No Screenshot Available</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Average Grade:</span>
+          </td>
+          <td class="row2" colspan="3">
+             <span class="gen"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Reviews:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">3</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Review:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">C+</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Number of Ratings:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">0</span>
+          </td>
+          <td class="row2">
+            <span class="gen">Average Rating:</span>
+          </td>
+          <td class="row2">
+            <span class="gen">N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Stage of Development:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">This is the final version</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Download:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen"><a href="download.php?game=204">Download: 22B</a></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen">Date:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">Updated Fri Sep 16, 2016 7:02 am</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"> Download count:</span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">808</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"><a href="./viewjournal.php?j=-204">Game Journal:</a></span>
+          </td>
+          <td class="row2" colspan="3">
+            <span class="gen">0 topics and 0 posts</span>
+          </td>
+	</tr>
+        <tr>
+          <td class="row2">
+            <span class="gen"></span>
+          </td>
+          <td class="row2" align="center" width="75">
+          </td>
+          <td class="row2" align="right" colspan="2">
+            <span class="gen"></span>
+          </td>
+        </tr>
+      </tbody></table>
+      <br>
+    </td>
+    <td width="10">
+      &nbsp;
+    </td>
+  </tr>
+</tbody></table>
+
+<form action="gamelist.php" method="post">
+<center><table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><span class="nav">
+      <input class="mainoption" name="submit" type="Submit" value="Previous Page">
+      <input class="mainoption" name="submit" type="Submit" value="Next Page">
+      </span> </td>
+    <td><div align="right">
+        <input name="author" type="hidden" value=" ">
+        <input name="keywords" type="hidden" value=" ">
+        <input name="title" type="hidden" value=" ">
+        <input name="stage" type="hidden" value="">
+        <input name="average" type="hidden" value="">
+        <input name="temp_start" type="hidden" value="10">
+        <input name="games_per_page" type="hidden" value="10">
+	<input name="order_by" type="hidden" value="">
+	<input name="order_type" type="hidden" value="DESC">
+        <span class="nav">
+        <input class="mainoption" type="submit" name="Submit" value="Go to Page">
+        <select name="start">
+          <option value="0">1</option>
+          <option value="10" selected="selected">2</option>
+          <option value="20">3</option>
+          <option value="30">4</option>
+          <option value="40">5</option>
+          <option value="50">6</option>
+          <option value="60">7</option>
+          <option value="70">8</option>
+          <option value="80">9</option>
+          <option value="90">10</option>
+          <option value="100">11</option>
+          <option value="110">12</option>
+          <option value="120">13</option>
+          <option value="130">14</option>
+          <option value="140">15</option>
+          <option value="150">16</option>
+          <option value="160">17</option>
+          <option value="170">18</option>
+          <option value="180">19</option>
+          <option value="190">20</option>
+          <option value="200">21</option>
+          <option value="210">22</option>
+          <option value="220">23</option>
+          <option value="230">24</option>
+          <option value="240">25</option>
+          <option value="250">26</option>
+          <option value="260">27</option>
+          <option value="270">28</option>
+          <option value="280">29</option>
+          <option value="290">30</option>
+          <option value="300">31</option>
+          <option value="310">32</option>
+          <option value="320">33</option>
+          <option value="330">34</option>
+          <option value="340">35</option>
+          <option value="350">36</option>
+          <option value="360">37</option>
+          <option value="370">38</option>
+          <option value="380">39</option>
+          <option value="390">40</option>
+          <option value="400">41</option>
+          <option value="410">42</option>
+          <option value="420">43</option>
+          <option value="430">44</option>
+          <option value="440">45</option>
+          <option value="450">46</option>
+          <option value="460">47</option>
+          <option value="470">48</option>
+          <option value="480">49</option>
+          <option value="490">50</option>
+          <option value="500">51</option>
+          <option value="510">52</option>
+          <option value="520">53</option>
+          <option value="530">54</option>
+          <option value="540">55</option>
+          <option value="550">56</option>
+          <option value="560">57</option>
+          <option value="570">58</option>
+          <option value="580">59</option>
+          <option value="590">60</option>
+          <option value="600">61</option>
+          <option value="610">62</option>
+          <option value="620">63</option>
+          <option value="630">64</option>
+          <option value="640">65</option>
+          <option value="650">66</option>
+          <option value="660">67</option>
+          <option value="670">68</option>
+          <option value="680">69</option>
+          <option value="690">70</option>
+          <option value="700">71</option>
+          <option value="710">72</option>
+          <option value="720">73</option>
+          <option value="730">74</option>
+          <option value="740">75</option>
+          <option value="750">76</option>
+          <option value="760">77</option>
+          <option value="770">78</option>
+          <option value="780">79</option>
+          <option value="790">80</option>
+          <option value="800">81</option>
+          <option value="810">82</option>
+          <option value="820">83</option>
+          <option value="830">84</option>
+          <option value="840">85</option>
+          <option value="850">86</option>
+          <option value="860">87</option>
+          <option value="870">88</option>
+          <option value="880">89</option>
+          <option value="890">90</option>
+          <option value="900">91</option>
+          <option value="910">92</option>
+          <option value="920">93</option>
+          <option value="930">94</option>
+          <option value="940">95</option>
+          <option value="950">96</option>
+          <option value="960">97</option>
+          <option value="970">98</option>
+          <option value="980">99</option>
+          <option value="990">100</option>
+          <option value="1000">101</option>
+          <option value="1010">102</option>
+          <option value="1020">103</option>
+          <option value="1030">104</option>
+          <option value="1040">105</option>
+          <option value="1050">106</option>
+          <option value="1060">107</option>
+          <option value="1070">108</option>
+        </select>
+        </span><span class="ad"> /108 </span></div></td>
+  </tr>
+</tbody></table>
+</center>
+</form>
+
+<table width="430" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody><tr>
+	<td align="right"><span class="nav"><br></span></td>
+  </tr>
+</tbody></table>
+
+</span>
+</td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td valign="top"><div align="center">
+          <table width="150" border="0" cellspacing="2" cellpadding="2">
+            <tbody><tr>
+              <td><div align="center"><img src="./img/3-ButtonRandomGames.jpg" width="150" height="20" alt="Random Games"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+                  <table width="144" height="145" border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                      <td align="center" background="./img/3-ClearBG.jpg">
+                        <table border="0" bgcolor="#EE8500" cellspacing="2" width="130">
+                          <tbody><tr>
+                            <td align="center"><span class="randgame"><a class="randgame" href="./gamelist-display.php?game=74"><img alt="Project Ascension" width="128" height="80" src="./gamelist/74/74.jpg"><br>Project Ascension</a> by <a class="randgame" href="./ohr/profile.php?mode=viewprofile&amp;u=0">mune</a></span></td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </div></td>
+            </tr>
+            <tr>
+              <td><div align="center"><img src="./img/3-RandomSongs.jpg" width="150" height="20" alt="Random Songs"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+              </div></td>
+            </tr>
+            <tr>
+              <td><div align="center"><img src="./img/3-ButtonCalendar.jpg" width="150" height="20" alt="Calendar"></div></td>
+            </tr>
+            <tr>
+              <td><div align="center">
+                  <table width="144" height="145" border="0" cellpadding="3" cellspacing="0">
+                    <tbody><tr>
+                      <td valign="top"><div align="center"><table width="150" border="0" cellspacing="2" cellpadding="2">
+  <tbody><tr>
+    <td width="32" height="26">
+      <a href="?month=7&amp;year=2018#"><img src="./img/3-CalendarLeft.jpg" width="32" height="26" border="0" alt="Previous Month"></a>
+    </td>
+    <td width="86" height="26" align="center">
+      <span class="ad">August 2018</span>
+    </td>
+    <td width="32" height="26">
+      <a href="?month=9&amp;year=2018#"><img src="./img/3-CalendarRight.jpg" width="32" height="26" border="0" alt="Next Month"></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <table bgcolor="#000000" cellspacing="1" cellpadding="2">
+        <tbody><tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">S</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">M</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">T</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">W</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">T</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">F</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">S</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">1</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">2</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">3</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">4</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">5</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">6</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">7</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">8</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">9</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">10</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">11</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">12</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">13</font></td>
+          <td width="4" height="4" class="row3" align="right" valign="top"><font size="-2">14</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">15</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">16</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">17</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">18</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">19</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">20</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">21</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">22</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">23</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">24</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">25</font></td>
+        </tr>
+        <tr>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">26</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">27</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">28</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">29</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">30</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2">31</font></td>
+          <td width="4" height="4" class="row1" align="right" valign="top"><font size="-2"></font></td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+  <tr>
+    <td width="32" height="26">
+      &nbsp;
+    </td>
+    <td width="86" height="26" align="center">
+      <span class="ad"><a href="./calendar.php?entry=1&amp;dis=0" class="ad">Enter Event</a></span>
+    </td>
+    <td width="32" height="26">
+      &nbsp;
+    </td>
+  </tr>
+</tbody></table>
+
+</div></td>
+                    </tr>
+                  </tbody></table>
+                </div></td>
+            </tr>
+          </tbody></table>
+        </div></td>
+    </tr>
+  </tbody></table>
+</td>
+</tr>
+</tbody></table>
+<!--<tr>
+ <td align="center"> -->
+<span class="ad"></span><br>
+<span class="ad">
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-4656781286494824";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	google_ad_format = "728x90_as";
+	google_ad_type = "image";
+	google_ad_channel ="0858794136";
+	google_color_border = "D56C00";
+	google_color_bg = "EE8500";
+	google_color_link = "FFD5AA";
+	google_color_url = "FFD5AA";
+	google_color_text = "593200";
+	//--></script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></span>
+  <span class="copyright"><br>
+    All games, songs, and images © their respective owners.<br>
+    <a href="./tos.php">Terms of Service</a><br>
+    ©2008 Castle Paradox
+   </span>
+<!--  </td>
+</tr>
+</table>-->
+</div>
+<!-- Begin Web-Stat code -->
+<script type="text/javascript">
+<!--
+var page_name = '';
+var invisible = '';
+var iv=invisible;var pn=page_name;var ui='Inferior_Minion';
+function sE(){return true;}window.onError=sE;function clr()
+{document.ct.src="http://64.49.222.57/0.gif";}
+pn=escape(pn);var url='http://www.web-stat.com/';
+var al='Web-Stat hit counters';var rn=Math.random();
+if (window.screen){var sw=screen.width;var sh=screen.height;
+var sc=screen.colorDepth;}else{var sw='';var sh='';
+var sc='';}var qry=ui+"::"+escape(document.referrer)
++'::'+sw+'x'+sh+'::'+sc+'::'+pn+'::'+iv+'::'+rn;
+document.write('<a href="'+url+'stats.shtml?'+ui+'" tar');
+document.write('get="new"><img name="ct" border=0 src="');
+document.write(url+'count.cgi?'+qry+'" onAbort="clr();"');
+document.write(' onError="clr();" alt="'+al+'"></a>');
+//-->
+</script><a href="http://www.web-stat.com/stats.shtml?Inferior_Minion" target="new"><img name="ct" border="0" src="http://www.web-stat.com/count.cgi?Inferior_Minion::http%3A//www.castleparadox.com/gamelist.php::1366x768::24::::::0.9445627780135764" onabort="clr();" onerror="clr();" alt="Web-Stat hit counters"></a><noscript>
+<a href="http://www.web-stat.com/stats.shtml?Inferior_Minion" target="new">
+</a></noscript>
+<!-- End Web-Stat code -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-797778-1";
+urchinTracker();
+</script>
+
+
+
+
+</body></html>
